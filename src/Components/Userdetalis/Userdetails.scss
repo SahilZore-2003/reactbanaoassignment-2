@@ -1,0 +1,75 @@
+.user-details {
+    min-height: 100vh;
+
+    a svg {
+        position: absolute;
+        top: 3%;
+        left: 3%;
+        font-size: 1.5rem;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .main-user {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 500px;
+        width: 90%;
+        margin: 2rem auto;
+        padding: 1rem 2rem;
+        gap: 10px;
+
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+
+        p {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        .bio {
+            background-color: #eaf0f6;
+            padding: 1rem;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .info {
+            width: 100%;
+
+            div {
+                margin-bottom: .5rem;
+            }
+
+            span {
+                font-size: .8rem;
+                font-weight: 500;
+                word-spacing: 2px;
+            }
+
+            h4 {
+                background-color: #eaf0f6;
+                padding: 10px;
+                font-weight: 500;
+                border-radius: 10px;
+
+            }
+        }
+
+        .avatar {
+            img {
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                object-position: top;
+            }
+        }
+    }
+}
